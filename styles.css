@@ -45,10 +45,19 @@ nav img {
   font-size: 15px;
 }
 
-.nav-link-wrapper:hover {
+/*.nav-links ul li::after {
+  content: '';
+  width: 100px;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin:auto;
+} */
+
+.nav-links:hover {
   border-bottom: 1px solid black;
 }
 
-.nav-link-wrapper a:hover {
+.nav-links a:hover {
   color: black;
 }
