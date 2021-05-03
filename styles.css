@@ -1,5 +1,5 @@
 body {
-  margin: 0px;  
+  margin: 50px;  
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
 
 .nav-wrapper > div {
   font-size: 0.8em;
+  
 }
 
 .nav-link-wrapper {
