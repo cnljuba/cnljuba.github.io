@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  margin: 50px;  
-}
-
 .header {
   min-height: 100vh;
   width: 100%;
@@ -15,11 +11,7 @@ body {
   background-size: cover;
   position: relative;
 }
-    
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+   
 
 .nav-wrapper {
   display: flex;
