@@ -7,21 +7,23 @@
 
 .nav-wrapper > div {
   font-size: 0.8em;
-  margin-right: 20px;
 }
 
 .nav-link-wrapper {
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
   color: #8a8a8a;
   text-decoration: none;
   transition: color 0.5s;
 }
 
-.nav-wrapper:hover {
+.nav-link-wrapper:hover {
   border-bottom: 1px solid black;
 }
 
-.nav-wrapper a:hover {
+.nav-link-wrapper a:hover {
   color: black;
 }
