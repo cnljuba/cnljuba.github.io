@@ -182,10 +182,11 @@ h3 {
 
 .resume-row {
   flex-basis: 32%;
-  sorder-radius: 10px;
+  border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 
 
