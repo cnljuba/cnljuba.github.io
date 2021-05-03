@@ -26,8 +26,8 @@ nav img {
 
 .nav-links {
   flex: 1;
- /* border-bottom: 1px solid transparent;
-  transition: border-bottom 0.5s;*/
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
   text-align: right;
 }
 
@@ -42,7 +42,7 @@ nav img {
   color: #fff;
   text-decoration: none;
   
-  font-size: 55px;
+  font-size: 35px;
 }
 
 .nav-links ul li::after {
@@ -80,7 +80,7 @@ nav img {
 
 .text-box p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 34px;
   color: #fff;
 }
   
@@ -130,7 +130,7 @@ h1 {
 }
 p {
   color: #777;
-  font-size: 14px;
+  font-size: 34px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
@@ -206,6 +206,7 @@ h3 {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+  
 }
 
 .contact-col div h5 {
@@ -214,6 +215,7 @@ h3 {
   color: #555;
   font-weight: 400;
   text-align: center;
+  padding-top: 50px;
 }
 
 .contact-col input, .contact-col textarea {
