@@ -151,6 +151,10 @@ p {
   box-sizing: border-box;
   transition: 0.5s;
 }  
+
+.about-col img {
+  width: 100%;
+}  
   
 h3 {
   text-align: center;
@@ -174,4 +178,13 @@ h3 {
   text-align: center;
   padding-top: 50px;
 }
+
+.resume-row {
+  flex-basis: 32%;
+  sorder-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
 
