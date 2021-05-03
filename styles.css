@@ -47,14 +47,16 @@ nav img {
 
 /*.nav-links ul li::after {
   content: '';
-  width: 100px;
+  width: 0px;
   height: 2px;
   background: #f44336;
   display: block;
   margin:auto;
+  transition: 0.5s;
 } */
 
-.nav-links:hover {
+.nav-links:hover::after {
+  width: 100%
   border-bottom: 1px solid black;
 }
 
