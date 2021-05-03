@@ -1,8 +1,16 @@
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  /*padding: 38px;*/
+  padding: 38px;
+  
+}
+
+.nav-wrapper > div {
   font-size: 0.8em;
+  margin-right: 20px;
+}
+
+.nav-link-wrapper {
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
   color: #8a8a8a;
