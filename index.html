@@ -20,8 +20,8 @@
                 <nav>
                     <!--<a href="index.html"><img src="images/logo.png"></a>-->
                  
-                    <div class="nav-links">
-                        <i class="fa fa-times"></i>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
 
                         <ul>
                             <li><a href="https://cnljuba.github.io">Home</a></li>
@@ -29,7 +29,7 @@
                         </ul>
                       
                     </div>
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
 
                 <!--    <div class="nav-link-wrapper">
                         <a href="https://ud-cisc374.github.io/educational-game-project-team-4-alyssa-b-casey-l/final/"
@@ -42,6 +42,17 @@
              </div>
            
         </section>
+        
+        <!-- Javascript for toggle menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hidewMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
         
     </body>
     
