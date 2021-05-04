@@ -207,7 +207,7 @@ h3 {
 }
 
 .resume-row {
-  /*flex-basis: 32%;*/
+  flex-basis: 32%;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
