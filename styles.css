@@ -185,6 +185,13 @@ h3 {
   align-items: center;
 }
 
+.column {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .btn {
   background-color: Coral;
   border: none;
