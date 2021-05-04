@@ -37,7 +37,7 @@ nav img {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
-  position: fixed;;
+  /*position: fixed;*/
 }
 
 .nav-links ul li a {
@@ -145,7 +145,7 @@ p {
 }  
   
 .about-col {
-  flex-basis: 31%;
+  flex-basis: 21%;
   background: #fff3f3;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -156,7 +156,7 @@ p {
 
 .about-col img {
   max-width: 50%;
-  height: 100%;
+  height: auto;
 }  
   
 h3 {
