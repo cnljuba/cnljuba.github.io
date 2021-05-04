@@ -42,7 +42,7 @@ nav img {
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
-  position: fixed;
+  
   font-size: 35px;
 }
 
@@ -148,14 +148,14 @@ p {
   background: #fff3f3;
   border-radius: 10px;
   margin-bottom: 5%;
-  padding: 0px 0px;
+  padding: 20px 20px;
   box-sizing: border-box;
   transition: 0.5s;
 }  
 
 .about-col img {
-  max-width: 60%;
-  height: 60%;
+  max-width: 100%;
+  height: auto;
 }  
   
 h3 {
@@ -175,10 +175,11 @@ h3 {
 }
 
 .resume {
-  width: 90%;
+  width: 95%;
   margin: auto;
   text-align: center;
   padding-top: 50px;
+  flex-direction: column;
 }
 
 .btn {
