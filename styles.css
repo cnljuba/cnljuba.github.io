@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Hind Siliguri', sans-serif;
-  background-color: SeaShell;
 }
 
 .header {
@@ -27,7 +26,7 @@ nav img {
 
 .nav-links {
   flex: 1;
-  position: fixed;
+  position: relative;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
   text-align: right;
@@ -37,7 +36,7 @@ nav img {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
-  /*position: fixed;*/
+  position: fixed;
 }
 
 .nav-links ul li a {
@@ -121,7 +120,7 @@ nav .fa {
 }
   
 .about{
-  width: 80%;
+  width: 60%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
@@ -132,10 +131,10 @@ h1 {
 }
 p {
   color: Black;
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 22px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .row {
