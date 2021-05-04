@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   font-family: 'Hind Siliguri', sans-serif;
+  background-color: SeaShell;
 }
 
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: /*linear-gradient(rgba(4,9,30,0.7),(rgba(4,9,30,0.7),*/url(../images/florian-olivo-JNz9bQD3Oio-unsplash.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7),(rgba(4,9,30,0.7),url(../images/florian-olivo-JNz9bQD3Oio-unsplash.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -15,7 +16,6 @@
    
 nav {
   display: flex;
-  
   padding 2% 6%;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,7 @@ nav img {
 
 .nav-links {
   flex: 1;
-  poisition: fixed;
+  position: fixed;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
   text-align: right;
@@ -212,6 +212,7 @@ h3 {
   font-weight: 400;
   text-align: center;
   padding-top: 50px;
+  flex-direction: column;
 }
 
 .links {
