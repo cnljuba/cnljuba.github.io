@@ -87,7 +87,7 @@ nav img {
   color: #fff;
 }
   
-nav .fa {
+nav .far .fas {
   display: none;
 }
   
@@ -109,7 +109,7 @@ nav .fa {
     z-index: 2;
     transition: 1s;
   }
-  nav .fa {
+  nav .far .fas {
     display: block;
     color: #fff;
     margin: 10px;
