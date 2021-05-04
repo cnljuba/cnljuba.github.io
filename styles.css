@@ -37,7 +37,7 @@ nav img {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
-  position: relative;
+  position: fixed;;
 }
 
 .nav-links ul li a {
@@ -131,8 +131,8 @@ h1 {
   font-weight: 600;
 }
 p {
-  color: #777;
-  font-size: 34px;
+  color: Black;
+  font-size: 24px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
