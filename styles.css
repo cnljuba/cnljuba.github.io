@@ -183,8 +183,9 @@ h3 {
 }
 
 .btn {
-  background-color: DodgerBlue;
+  background-color: Coral;
   border: none;
+  border-radius: 10px;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
@@ -192,7 +193,7 @@ h3 {
 }
 
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: OrangeRed;
 }
 
 .resume-row {
@@ -211,6 +212,19 @@ h3 {
   font-weight: 400;
   text-align: center;
   padding-top: 50px;
+}
+
+.links {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.links-list {
+  flex-basis: 48px;
+  margin-bottom: 30px;
+  text-align: center;
 }
    
 .contact {
