@@ -146,7 +146,7 @@ p {
 }  
   
 .about-col {
-  flex-basis: 21%;
+  flex-basis: 50%;
   background: #fff3f3;
   border-radius: 10px;
   margin-bottom: 5%;
